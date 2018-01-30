@@ -1,2 +1,2 @@
-# CS362-001-W2018
-The projects directory should contains your onid folder
+# CS362-001-W201
+"This is my assignment-2 submission!"
