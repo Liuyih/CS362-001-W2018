@@ -1,0 +1,8 @@
+
+appt line 127. change “true” to “false”. this bug will cause the program crash with appt is null.
+
+timetable line53, change “<“ to “>”, this bug cause program can’t get the right appointment time in the range days.
+
+appt line 299, remove “this.getStartMonth()+”, this bug cause program can’t print the right month. 
+
+I found the appt line 127 bug was interesting, because no matter how other inputs you enter before this else statement, this loop will always print the error message.because the else statement will treat all the right input to false. this bug was found by test02.
